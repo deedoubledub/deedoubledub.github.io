@@ -13,6 +13,5 @@ title: 'deedoubledub'
     <li><i class="fa fa-li fa-graduation-cap"></i> {{ site.data.about.education.major | append: ', ' | append: site.data.about.education.institution | append: ', Class of ' | append: site.data.about.education.class }}</li>
     <li><i class="fa fa-li fa-briefcase"></i> {{ site.data.about.job.title | append: ', ' | append: site.data.about.job.employer }}</li>
     <li><i class="fa fa-li fa-envelope"></i> {{ site.data.about.email }}</li>
-    <li><i class="fa fa-li fa-link"></i> {{ site.data.about.site }}</li>
   </ul>
 </div>
