@@ -2,5 +2,4 @@ theme: jekyll-theme-hacker
 title: 'deedoubledub'
 description: 'technology, linux, gaming, hiking, fireworks'
 show_downloads: false
-exclude: ['LICENSE', 'Gemfile', 'Gemfile.lock']
-#exclude: ['README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock']
+exclude: ['README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', '_posts/template.md']
