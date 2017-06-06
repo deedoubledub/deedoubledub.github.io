@@ -16,3 +16,31 @@ title: 'deedoubledub'
     <li><i class="fa fa-li fa-link"></i> {{ site.data.about.site }}</li>
   </ul>
 </div>
+
+<h1>Technology</h1>
+<ul>
+  {% for post in site.categories.technology %}
+  <li>{{ post.title }}</li>
+  {% endfor %}
+</ul>
+
+<h1>Hiking</h1>
+<ul>
+  {% for post in site.categories.hiking %}
+  <li>{{ post.title }}</li>
+  {% endfor %}
+</ul>
+
+<h1>Gaming</h1>
+<ul>
+  {% for post in site.categories.gaming %}
+  <li>{{ post.title }}</li>
+  {% endfor %}
+</ul>
+
+<h1>Fireworks</h1>
+<ul>
+  {% for post in site.categories.fireworks %}
+  <li>{{ post.title }}</li>
+  {% endfor %}
+</ul>
