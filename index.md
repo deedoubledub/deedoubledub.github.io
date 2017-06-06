@@ -22,36 +22,44 @@ title: 'deedoubledub'
 <div class="row">
   <div class="col-md-3">
     <h1 class="text-center">Technology</h1>
-    <ul>
+    <ul class="hacker">
       {% for post in site.categories.technology %}
-      <li>{{ post.title }}</li>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
 
   <div class="col-md-3">
     <h1 class="text-center">Hiking</h1>
-    <ul>
+    <ul class="hacker">
       {% for post in site.categories.hiking %}
-      <li>{{ post.title }}</li>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
 
   <div class="col-md-3">
     <h1 class="text-center">Gaming</h1>
-    <ul>
+    <ul class="hacker">
       {% for post in site.categories.gaming %}
-      <li>{{ post.title }}</li>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
 
   <div class="col-md-3">
     <h1 class="text-center">Fireworks</h1>
-    <ul>
+    <ul class="hacker">
       {% for post in site.categories.fireworks %}
-      <li>{{ post.title }}</li>
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
       {% endfor %}
     </ul>
   </div>
