@@ -3,11 +3,11 @@ layout: default
 title: 'deedoubledub'
 ---
 
-<div class="row">
+<div class="row bio">
   <div class="col-md-8 col-md-offset-2">
     <img class="profile img-circle" src="/assets/images/profile.jpg" />
 
-    <ul class="fa-ul pull-right">
+    <ul class="fa-ul pull-right bio-list">
       <li><i class="fa fa-li fa-user"></i> {{ site.data.about.name }}</li>
       <li><i class="fa fa-li fa-calendar-o"></i> {{ site.data.about.birthdate.month | append: ' ' | append: site.data.about.birthdate.day | append: ', ' | append: site.data.about.birthdate.year }}</li>
       <li><i class="fa fa-li fa-map-marker"></i> {{ site.data.about.location.city | append: ', ' | append: site.data.about.location.state }}</li>
