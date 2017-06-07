@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 'Water Block Installation'
 date: 2015-11-05
 categories: technology

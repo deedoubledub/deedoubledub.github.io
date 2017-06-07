@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: 'Mortar Racks'
 date: 2014-06-06
 categories: fireworks
