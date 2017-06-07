@@ -21,11 +21,10 @@ I am currently running the beta SteamOS and everything has worked out fairly
 well. You know, outside of the normal issues that you encounter with bad
 linux ports.
 
-http://store.steampowered.com/steamos/buildyourown
+<http://store.steampowered.com/steamos/buildyourown>
 
-Component Hardware
-Motherboard/CPU Intel NUC D54250WYK1 Kit
-RAM Crucial 204-Pin DDR3 1600 SO-DIMM Kit
-SSD Samsung 840 EVO 250GB SATA III mSATA
-Wireless  Intel 7260HMW 802.11AC Wi-Fi plus Bluetooth 4.0 Mini PCI Express
-Cable Mini HDMI to HDMI Male to Male
+|Motherboard/CPU|Intel NUC D54250WYK1 Kit|
+|RAM|Crucial 204-Pin DDR3 1600 SO-DIMM Kit|
+|SSD|Samsung 840 EVO 250GB SATA III mSATA|
+|Wireless|Intel 7260HMW 802.11AC Wi-Fi plus Bluetooth 4.0 Mini PCI Express|
+|Cable|Mini HDMI to HDMI Male to Male|
