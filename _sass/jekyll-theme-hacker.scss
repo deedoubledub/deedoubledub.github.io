@@ -253,6 +253,13 @@ a {
 
 /* Custom */
 
+.home:hover {
+  text-decoration: none;
+}
+.home:focus {
+  text-decoration: none;
+}
+
 .logo {
   width: 100px;
   height: 100px;
