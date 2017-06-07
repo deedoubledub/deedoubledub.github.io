@@ -135,13 +135,13 @@ ul li {
   list-style: none;
 }
 
-ul.hacker {
+ul {
   margin-top: -10px;
   padding-top: 10px;
   border-top: 1px dashed #b5e853;
 }
 
-ul.hacker li:before {
+ul li:before {
   content: ">>";
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
   font-size: 13px;
@@ -286,6 +286,21 @@ a {
 
 .posts {
   margin: 30px 0 0 0;
+}
+
+.fa-ul {
+  border-top: none;
+}
+
+.fa-ul li:before {
+  content: "";
+  margin-left: 0px;
+  line-height: 1.4;
+  font-size: 16px;
+}
+
+.bio-list > li > .fa-li {
+  color: #b5e853;
 }
 
 @media (max-width: 840px) {

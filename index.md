@@ -22,7 +22,7 @@ title: 'deedoubledub'
 <div class="row posts">
   <div class="col-md-3">
     <h1 class="text-center">Technology</h1>
-    <ul class="hacker">
+    <ul>
       {% for post in site.categories.technology %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -33,7 +33,7 @@ title: 'deedoubledub'
 
   <div class="col-md-3">
     <h1 class="text-center">Hiking</h1>
-    <ul class="hacker">
+    <ul>
       {% for post in site.categories.hiking %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -44,7 +44,7 @@ title: 'deedoubledub'
 
   <div class="col-md-3">
     <h1 class="text-center">Gaming</h1>
-    <ul class="hacker">
+    <ul>
       {% for post in site.categories.gaming %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
@@ -55,7 +55,7 @@ title: 'deedoubledub'
 
   <div class="col-md-3">
     <h1 class="text-center">Fireworks</h1>
-    <ul class="hacker">
+    <ul>
       {% for post in site.categories.fireworks %}
       <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
