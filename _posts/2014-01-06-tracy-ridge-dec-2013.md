@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 'Tracy Ridge, Dec 2013'
 date: 2014-01-06
 categories: hiking

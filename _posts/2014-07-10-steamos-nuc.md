@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 'SteamOS NUC'
 date: 2014-07-10
 categories: technology

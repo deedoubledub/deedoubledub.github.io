@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 'Custom NAS'
 date: 2015-08-14
 categories: technology

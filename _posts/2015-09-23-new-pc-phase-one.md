@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 'New PC Phase One'
 date: 2015-09-23
 categories: technology
