@@ -3,11 +3,11 @@ layout: default
 title: 'deedoubledub'
 ---
 
-<div class="row bio">
-  <div class="col-md-8 col-md-offset-2">
-    <img class="profile img-circle" src="/assets/images/profile.jpg" />
+<div class="row">
+  <div class="center-block bio">
+    <img class="profile pull-left center-block img-circle" src="/assets/images/profile.jpg" />
 
-    <ul class="fa-ul pull-right bio-list">
+    <ul class="fa-ul bio-list">
       <li><i class="fa fa-li fa-user"></i> {{ site.data.about.name }}</li>
       <li><i class="fa fa-li fa-calendar-o"></i> {{ site.data.about.birthdate.month | append: ' ' | append: site.data.about.birthdate.day | append: ', ' | append: site.data.about.birthdate.year }}</li>
       <li><i class="fa fa-li fa-map-marker"></i> {{ site.data.about.location.city | append: ', ' | append: site.data.about.location.state }}</li>
@@ -19,7 +19,7 @@ title: 'deedoubledub'
   </div>
 </div>
 
-<div class="row">
+<div class="row posts">
   <div class="col-md-3">
     <h1 class="text-center">Technology</h1>
     <ul class="hacker">
