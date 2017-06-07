@@ -1,7 +1,6 @@
 @import "rouge-base16-dark";
 
 body {
-  min-width: 460px;
   margin: 0;
   padding: 0;
   background: #151515 url("../images/bkg.png") 0 0;
@@ -264,7 +263,7 @@ a {
 .logo {
   width: 100px;
   height: 100px;
-  margin: 0 20px 0 0;
+  margin: -20px 20px 0 0;
   border: 2px;
   border-style: solid;
   border-color: #ffffff;
@@ -289,12 +288,6 @@ a {
   margin: 30px 0 0 0;
 }
 
-@media (max-width: 991px) {
-  .logo {
-    margin-top: -20px;
-  }
-}
-
 @media (max-width: 840px) {
   .bio {
     width: auto;
@@ -314,5 +307,28 @@ a {
     position: relative;
     left: 10px;
     top: 0px;
+  }
+}
+
+@media (max-width: 420px) {
+  header {
+    height: 200px;
+  }
+
+  .logo {
+    float: none !important;
+    margin: auto;
+  }
+
+  .title {
+    text-align: center;
+  }
+
+  .tagline {
+    display: none;
+  }
+
+  .posts {
+    margin-top: 50px;
   }
 }

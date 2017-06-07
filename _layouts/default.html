@@ -16,12 +16,12 @@
     <header>
       <div class="container">
         <div class="row">
-          <div class="col-md-9 col-md-offset-2">
+          <div class="header">
             <a class="home" href="{{ site.url }}">
-              <img class="img-circle pull-left logo" src="/assets/images/logo.png" />
-              <h1>{{ site.title | default: site.github.repository_name }}</h1>
+              <img class="img-circle center-block pull-left logo" src="/assets/images/logo.png" />
+              <h1 class="title">{{ site.title | default: site.github.repository_name }}</h1>
             </a>
-            <h2>{{ site.description | default: site.github.project_tagline }}</h2>
+            <h2 class="tagline">{{ site.description | default: site.github.project_tagline }}</h2>
           </div>
         </div>
 
