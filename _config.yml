@@ -3,4 +3,8 @@ title: 'deedoubledub'
 description: 'technology, linux, gaming, hiking, fireworks'
 show_downloads: false
 permalink: /:year/:month/:title/
+gems:
+  - jekyll-feed
+feed:
+  path: /rss/index.xml
 exclude: ['README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', '_posts/template.md']
