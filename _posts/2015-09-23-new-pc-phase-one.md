@@ -3,6 +3,7 @@ layout: post
 title: 'New PC Phase One'
 date: 2015-09-23
 categories: technology
+imagepath: '/assets/images/2015/09/new-pc-phase-one/'
 ---
 
 My current primary computer was built in 2011. It's time to build a new one.
@@ -23,6 +24,12 @@ the next few days.
 I put everything that I currently have together to verify that it all works.
 I don't have the 980 Ti yet, so I threw in an old Radeon 5850 that I had
 lying around.
+
+{% capture url %}{{ 'image01.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="the beautiful motherboard" %}
+
+{% capture url %}{{ 'image02.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="components installed and everything works!" %}
 
 The case is scheduled to arrive today, so the next step will be to give
 these parts a permanent home.

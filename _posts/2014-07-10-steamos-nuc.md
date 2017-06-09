@@ -3,7 +3,11 @@ layout: post
 title: 'SteamOS NUC'
 date: 2014-07-10
 categories: technology
+imagepath: '/assets/images/2014/07/steamos-nuc/'
 ---
+
+{% capture url %}{{ 'image01.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="parts" %}
 
 I recently (May) built a small form-factor computer for use as a SteamOS
 living room gaming console. I wanted to use an Intel NUC because they are
@@ -28,3 +32,21 @@ linux ports.
 |SSD|Samsung 840 EVO 250GB SATA III mSATA|
 |Wireless|Intel 7260HMW 802.11AC Wi-Fi plus Bluetooth 4.0 Mini PCI Express|
 |Cable|Mini HDMI to HDMI Male to Male|
+
+{% capture url %}{{ 'image02.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="external shot of the NUC" %}
+
+{% capture url %}{{ 'image03.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="top view of the NUC, wi-fi card, mSATA drive" %}
+
+{% capture url %}{{ 'image04.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="inside the NUC" %}
+
+{% capture url %}{{ 'image05.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="wi-fi card installed" %}
+
+{% capture url %}{{ 'image06.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="mSATA drive installed" %}
+
+{% capture url %}{{ 'image07.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="RAM installed" %}

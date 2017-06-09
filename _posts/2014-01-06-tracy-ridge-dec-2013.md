@@ -41,3 +41,6 @@ the day of steady rain and decided we would rather go get dry and warm than
 spend a miserable night in the cold rain. We bailed out on the North Country
 Trail to the Sugar Bay trailhead and got some early burgers and beer at a
 local bar.
+
+{:.text-center}
+[See the photo album on Google+](https://plus.google.com/photos/+DavidWagner86/albums/6014977808189790353)

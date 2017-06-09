@@ -3,6 +3,7 @@ layout: post
 title: 'Custom NAS'
 date: 2015-08-14
 categories: technology
+imagepath: '/assets/images/2015/08/custom-nas/'
 ---
 
 Wow, it has almost been another year. I'm not very good at this. I have
@@ -63,10 +64,43 @@ I bought two, so I have a backup available.
 
 # The Build
 
+{% capture url %}{{ 'image01.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="the empty case" %}
+
+{% capture url %}{{ 'image02.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="motherboard installed" %}
+
+{% capture url %}{{ 'image03.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="closeup" %}
+
+{% capture url %}{{ 'image04.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="there is no way this will fit in a 1U case!" %}
+
+{% capture url %}{{ 'image05.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="that's better!" %}
+
+{% capture url %}{{ 'image06.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="assembled, I/O" %}
+
+{% capture url %}{{ 'image07.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="assembled, motherboard" %}
+
+{% capture url %}{{ 'image08.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="A look at the fans and backplane. These are the only fans in the system and they are pretty quiet." %}
+
+{% capture url %}{{ 'image09.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="loading up the disks!" %}
+
+{% capture url %}{{ 'image10.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="build complete!" %}
+
+{% capture url %}{{ 'image11.jpg' | prepend: page.imagepath }}{% endcapture %}
+{% include image.html url=url caption="it's alive!" %}
+
 # One Year Later
 
 I built this server 13 months ago and it has been running FreeNAS with a
-RAIDZ2 volume like a champ every since. The only issue that I have ever
+RAIDZ2 volume like a champ ever since. The only issue that I have ever
 eencountered was an error on the OS drive when FreeNAS started using ZFS on
 the boot partition. It turns out that cheap USB drives tend to be faulty. It
 was simple to replace the drive and get the system running again without any
