@@ -303,6 +303,17 @@ a {
   color: #b5e853;
 }
 
+.post-image {
+  max-width: 600px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.post-image figcaption {
+  color: #b5e853;
+  border-top: 1px dashed #b5e853;
+}
+
 @media (max-width: 840px) {
   .bio {
     width: auto;
