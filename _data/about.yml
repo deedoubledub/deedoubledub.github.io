@@ -1,0 +1,19 @@
+name: 'David Wagner'
+birthdate:
+  month: 'April'
+  day: 8
+  year: 1986
+location:
+  city: 'Conneaut Lake'
+  state: 'Pennsylvania'
+education:
+  major: 'Computer Science'
+  institution: 'Allegheny College'
+  class: 2008
+job:
+  title: 'Systems Administrator'
+  employer: 'Allegheny College'
+email: 'dwagner86@gmail.com'
+site: 'www.deedoubledub.com'
+steam: 'https://steamcommunity.com/id/deedoubledub/'
+boardgamegeek: 'https://boardgamegeek.com/collection/user/deedoubledub?own=1&subtype=boardgame'

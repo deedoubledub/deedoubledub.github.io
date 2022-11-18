@@ -1,0 +1,10 @@
+theme: jekyll-theme-hacker
+title: 'deedoubledub'
+description: ''
+show_downloads: false
+permalink: /:year/:month/:title/
+plugins:
+  - jekyll-feed
+feed:
+  path: /rss/index.xml
+exclude: ['serve.sh', README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', '_posts/template.md']
